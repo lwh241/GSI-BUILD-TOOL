@@ -1,9 +1,9 @@
 #/bin/bash
  
 usage() {
-    echo "Usage: sudo $0 <Path to firmware> <ROM NAME>"
-    echo -e "\tPath to firmware: the zip!"
-    echo -e "\tROM NAME: the rom's name!"
+    echo "Usage: sudo $0 https://download.meizu.com/Firmware/Flyme/16/8.20.9.29/cn_daily/20200929155326/c9d7af52/update.zip Flyme"
+    echo -e "\tPath to firmware:https://download.meizu.com/Firmware/Flyme/16/8.20.9.29/cn_daily/20200929155326/c9d7af52/update.zip"
+    echo -e "\tROM NAME:Flyme"
 }
  
 if [ "$1" == "" ]; then
